@@ -29,6 +29,8 @@ if (CMAKE_CUDA_COMPILER)
   find_package(Structure)
   
   # Find external library OpenGV
+  # adjust path to match your opengv folder
+  set(opengv_DIR ~/opengv-306a54e6c6b94e2048f820cdf77ef5281d4b48ad/build)
   find_package(opengv REQUIRED)
 
 
@@ -176,7 +178,7 @@ if (CMAKE_CUDA_COMPILER)
     libvis_cuda
     libvis_external_io
     ${CERES_LIBRARIES}
-    CUDA::cublas
+    cublas
     opengv
     camera_calibration_apriltag
     yaml-cpp2
