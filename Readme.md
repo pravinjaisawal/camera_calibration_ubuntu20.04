@@ -64,20 +64,20 @@ If you use the provided code for research, please cite the paper describing the 
 
 ## Building ##
 
-Building has been tested on Ubuntu 14.04 and Ubuntu 18.04 (with gcc).
+Building has been tested on Ubuntu 14.04 and Ubuntu 18.04 (with gcc). I have tested with Ubuntu 20.06 (with gcc 9.4)
 
 The following external dependencies are required.
 
-| Dependency   | Version(s) known to work |
-| ------------ | ------------------------ |
-| [Boost](https://www.boost.org/) | 1.54.0 |
-| [CUDA](https://developer.nvidia.com/cuda-downloads) | 10.1 |
-| [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) | 3.3.7 |
-| [GLEW](http://glew.sourceforge.net/build.html) | 1.10.0 |
-| [OpenGV](https://github.com/laurentkneip/opengv) | Commit 306a54e6c6b94e2048f820cdf77ef5281d4b48ad |
-| [Qt](https://www.qt.io/) | 5.12.0; minimum version: 5.8 |
-| [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) | 4.2.1 |
-| [zlib](https://zlib.net/) | - |
+| Dependency   | Version(s) known to work | Ubuntu 20.04 | 
+| ------------ | ------------------------ | ------------ |
+| [Boost](https://www.boost.org/) | 1.54.0 | 1.71.0 |
+| [CUDA](https://developer.nvidia.com/cuda-downloads) | 10.1 | 11.6 |
+| [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) | 3.3.7 | 3.3.7-2 |
+| [GLEW](http://glew.sourceforge.net/build.html) | 1.10.0 |2.1.0 |
+| [OpenGV](https://github.com/laurentkneip/opengv) | Commit 306a54e6c6b94e2048f820cdf77ef5281d4b48ad |Commit 306a54e6c6b94e2048f820cdf77ef5281d4b48ad |
+| [Qt](https://www.qt.io/) | 5.12.0; minimum version: 5.8 | 5.12.8 |
+| [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) | 4.2.1 | 5.7.1 |
+| [zlib](https://zlib.net/) | - | - |
 
 The following external dependencies are optional.
 
